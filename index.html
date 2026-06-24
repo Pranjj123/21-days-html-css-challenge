@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Modal Progress Bar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Dropdown Menu</h1>
+
+    <div class="dropdown">
+
+        <button id="dropdownBtn">
+            Menu ▼
+        </button>
+
+        <div class="dropdown-content" id="dropdownContent">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+
+    </div>
+
+
+    <hr>
+
+
+    <h1>Modal Popup</h1>
+
+    <button id="openModalBtn">
+        Open Modal
+    </button>
+
+
+    <div class="overlay" id="overlay">
+
+        <div class="modal">
+
+            <h2>Delete Post?</h2>
+
+            <p>Are you sure?</p>
+
+            <button id="closeModalBtn">
+                Close
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <hr>
+
+
+    <h1>Progress Bar</h1>
+
+    <div class="progress-container">
+
+        <div class="progress-fill" id="progressFill">
+
+        </div>
+
+    </div>
+
+    <h2 id="percentage">
+        0%
+    </h2>
+
+    <button id="increaseBtn">
+        Increase Progress
+    </button>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
