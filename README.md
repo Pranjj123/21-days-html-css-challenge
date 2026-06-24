@@ -50,3 +50,6 @@ project/
 - Auto-progress animation
 - Dropdown close on outside click
 - React version
+
+## Your site is live at 
+https://pranjj123.github.io/21-days-html-css-challenge/
